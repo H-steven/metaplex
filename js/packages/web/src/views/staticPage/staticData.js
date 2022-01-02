@@ -1,20 +1,19 @@
 export const data = {
   headContent: {
-    title: 'We are Metaplex',
+    title: 'We are Loopro',
     subtitle: 'About Us',
-    bannerImage: '/main-banner.png',
+    bannerImage: '/loopro_vr_high.gif',
   },
   leftContent: undefined,
   midContent: {
     sections: [
       {
-        title: 'Metaplex is a protocol built on top of Solana that allows:',
+        title: 'Loopro is decentralized meta-fashion hub:',
         paragraphs: [
-          '• Creating/Minting non-fungible tokens;',
-          '• Starting a variety of auctions for primary/secondary sales;',
+          '• Co-branding with fashion retailers to digitize and NFTized their physical clothings;',
+          '• Virtually try on 3D outfits on customers\' own personalized photoreal avatars in VR world;',
           '• and Visualizing NFTs in a standard way across wallets and applications.',
         ],
-        image: '/main-banner.png',
       },
     ],
   },

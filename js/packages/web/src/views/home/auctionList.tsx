@@ -37,18 +37,18 @@ export const AuctionListView = () => {
 
   return (
     <>
-      <Banner
+      {/* <Banner
         src="/main-banner.svg"
         headingText="The amazing world of Metaplex."
         subHeadingText="Buy exclusive Metaplex NFTs."
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg
-      />
+      /> */}
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Col style={{ width: '100%', marginTop: 32 }}>
             <Row>
-              <Tabs
+              {/* <Tabs
                 activeKey={activeKey}
                 onTabClick={key => setActiveKey(key as LiveAuctionViewState)}
               >
@@ -73,7 +73,7 @@ export const AuctionListView = () => {
                     key={LiveAuctionViewState.Participated}
                   ></TabPane>
                 )}
-              </Tabs>
+              </Tabs> */}
             </Row>
             <Row>
               <Masonry

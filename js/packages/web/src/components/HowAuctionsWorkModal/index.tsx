@@ -27,7 +27,7 @@ export const HowAuctionsWorkModal: React.FC<HowAuctionsWorkModalProps> = ({
         },
         {
           title: 'Redeeming your NFT',
-          description: `If you’re lucky enough to win your NFT auction, you’ll have to redeem it to add it to your wallet. This can be done from the auction, winning notification, or your profile on ${LABELS.STORE_NAME}.`,
+          description: `If you’re lucky enough to win your NFT auction, you’ll have to redeem it to add it to your wallet. This can be done from the auction, winning notification, or your profile on Loopro.`,
           imgSrc: '/modals/how-auctions-work-3.jpg',
         },
       ]}
